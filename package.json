@@ -1,0 +1,23 @@
+{
+  "name": "simplenodeapps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yossi-whist/simplenodeapps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yossi-whist/simplenodeapps/issues"
+  },
+  "homepage": "https://github.com/yossi-whist/simplenodeapps#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
