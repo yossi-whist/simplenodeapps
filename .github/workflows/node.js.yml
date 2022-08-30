@@ -26,4 +26,7 @@ jobs:
           FIRST_NAME: yossi
           Last_name: didon
         run: echo $my_var $FIRST_NAME $Last_name
+      - name: second step
+        if: success()
+        run: echo "The previous steps has finished successfully"
           
